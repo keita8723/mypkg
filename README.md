@@ -17,27 +17,28 @@ $cd ..
 $catkin_make
 $cd src/mypkg/scripts
 ```
-- ここからは複数のウインドを開いての実行となります。
+- ここからは複数のウインドを開いての実行となります。  
 1つ目のウインドで以下のコマンドの実行をします。
 ```
 $roscore
-```
+```  
 
 ２つ目のウインドで以下のコマンドの実行をする。
 ```
 $cd ~/catkin_ws/src/mypkg/scripts
 $rosrun mypkg count.py
-```
+```  
 
 3つ目のウインドで以下のコマンドの実行をする。
 ```
 $cd ~/catkin_ws/src/mypkg/scripts
 $rosrun mypkg twice.py
-```
+```  
 
 4つ目のウインドで以下のコマンドの実行をする。
 ```
 $cd ~/catkin_ws/src/mypkg/scripts
 $rostopic echo /twice
-```
+```  
+
 
